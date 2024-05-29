@@ -1,0 +1,45 @@
+.font{
+    font-style: italic;
+   
+}
+.teks{
+    font-family: 'Bodoni MT Black';
+    color: #6b4c35;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    width: max-content;
+    transition: 0.3s;
+}
+.teks:hover {
+  background-color: #997950;
+  color: white;
+}
+.box{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px;
+  
+}
+.paragraf {
+  box-shadow: 0 4px 8px 0 #6b4c35;
+  transition: 0.3s;
+  width: 25%;
+}
+
+.foto{
+  display: flex;
+  height: 220px;
+  height: 220px;
+  justify-content: center;
+  gap: 20px;
+}
+.footer{
+  bottom: 20px;
+  margin: 20px;
+  background-color: #6b4c35;
+  text-align: center;
+  
+}
